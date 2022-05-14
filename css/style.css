@@ -1,0 +1,81 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  background: url('starsbgfinal.jpg');
+  text-align: center;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  /* background-color: aquamarine; */
+
+}
+
+
+.hidden {
+  display: none
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.datebutt {
+  display: flex;
+  max-width: 100%;
+  /* align-items: center; */
+  /* border: 2px solid blue; */
+  justify-content: center;
+}
+
+
+h1 {
+  max-width: 100%;
+  text-align: center;
+}
+
+h2 {
+  max-width: 100%;
+  text-align: center;
+}
+
+
+.imgdiv {
+  display: flex;
+  justify-content: center;
+  /* padding-left: 20vw;
+  padding-top: 2vw; */
+}
+
+img{
+  width: 40%;
+  height: auto;
+
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
